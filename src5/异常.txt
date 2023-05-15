@@ -1,0 +1,29 @@
+一.异常(Test.java)
+1.异常是错误对象,运行时异常,编译时能通过的---->运行时异常
+2.抛异常.创建一个错误对象,再把错误对象丢出来
+3.捕获异常.默认有jvm来把错误信息进行捕获,打印出来.jvm会终止程序的执行
+
+二.分类
+1.运行时异常(RuntimeException):一般不手动处理,出问题再处理
+2.其他异常(Exception):必须要经过手动处理
+3.Error:一般指系统级错误
+
+三.异常的处理try...catch(Test1.java)
+语法:
+try{
+   尝试执行的代码
+}catch(Exception e){
+   处理异常的代码
+}finally{
+   最终都要执行的
+}
+
+四.异常的处理throw和throws
+throws:表示方法,准备要扔出一个异常(Test2.java)
+产生的错误尽可能自己处理,减小向外抛出异常
+throw:表示向外抛出异常(Test3.java)
+
+
+
+五.自定义异常(com.yichang.zidingyi.Test4/5/6/7.java)
+直接继承Exception或者RunException来实现自定义异常

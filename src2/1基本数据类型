@@ -1,0 +1,16 @@
+一.整数
+byte Java程序中最小的程序单元8bit(-128~127之间)
+short  短整数16bit(-32768~32767)
+int 整数32bit(-21亿~21亿)
+long 长整数64bit
+二.小数
+double 64bit 双精度小数
+float 32bit 单精度小数
+三.字符
+单一的文字符号
+char 16bit unicode标准(定长,永远占用16位)
+char类型的数据可以存放数字,存放的数字实际上是字符
+四.布尔值(boolean)
+取值范围 true false
+8bit 1byte
+

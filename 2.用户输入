@@ -1,0 +1,8 @@
+Scanner:扫描器
+(1)先创建扫描器->记住导包Alt+Enter
+Scanner sc = new Scanner(System.in);
+     扫描器名称sc
+(2)获取数据
+sc.nextInt();//整数
+sc.nextDouble();//小数
+sc.nextLine();//字符串

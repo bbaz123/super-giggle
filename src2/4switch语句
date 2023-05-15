@@ -1,0 +1,17 @@
+与if 语句
+
+switch也是条件判断
+switch(变量){
+   case 值1:
+   xxxxx
+   break;
+   case 值2:
+   xxxx
+   break;
+   ......
+   default:
+     xxxxx
+}
+如果没有break,会产生case穿透现象
+case穿透现象:
+一个case现象被匹配成功,后面的case就不匹配,但会执行里面的代码

@@ -1,0 +1,24 @@
+if语句用来做条件判断
+一.if语句的语法
+(1).if(条件){
+    xxxxxx
+}
+逻辑:
+  判断条件是否为真(true),就去xxxxxx
+二.
+if(条件){
+xxxx
+}else{
+yyyy
+}
+真执行xxxx,假执行yyyy
+三.
+if(条件){
+
+}else if(条件){
+
+}else if(条件){
+
+}else{
+
+}
